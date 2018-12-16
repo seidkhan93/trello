@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html lang = "en-US">
+<head>
+<meta charset = "UTF-8">
+<meta name="viewport" content="width=1366">
+<title> OpenIT</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<header class="clearfix">
+    	<div class="left-part">
+        	<i id="th-large" class="fa fa-th-large"></i>
+        	<h3> Boards</h3>
+        	 <i id ="search" class="fa fa-search"></i>
+        	 <p> Search... </p>
+    	</div>
+    	<div class="logocenter">
+    		<a href="#" class="toCenter"><img src="img/logo.jpg" alt="" class="logo"></a>
+    	</div>
+    	<div class="right-part"> 
+    		<img src="img/anna.jpg" alt="" class="anna">
+    		<p> Hello, Anna! </p>
+    		<i class="fa fa-bell-o"></i>
+    		<span class="cir" style="display: block; width: 5px; height: 5px; position: absolute; border: 2px solid blue; bottom: 26px; right: 13px; border-radius: 50%; "></span>
+    	</div>
+    	<div class="lin"> 
+
+    	</div>
+    	<div class="button-last" style="position: absolute; right: 12px; bottom: 23px;">
+    		<img src="img/button.jpg" alt="" class="butright">
+    	</div>
+    </header>
+    <section id="main-content">
+	    	<div class="stats center-block-main clearfix" style="padding:30px 0;">
+	    		<div class="summary">
+	    			<img src="img/star1.jpg" alt="" class="star1">
+	    			<p style="display: inline-block;"> 
+	    				Planner Board - Summary
+	    				<br>
+	    				<span style="color:#94969a; font-size: 14px;">Netguru</span>
+	    			</p>
+	    			<div class="hop">
+		    			<button id="but1" class="buttons12" style="font-family: Roboto, Helvetica, sans-serif;">Board stats</button>
+		    			<button id="but2" class="buttons12" style="font-family: Roboto, Helvetica, sans-serif;">My stats</button>
+	    			</div>
+	    		</div>
+	    		
+	    		
+	    		<img src="img/krest.jpg" alt="" class="krest">
+	    	</div>
+	    	
+			<div class="graphics center-block-main clearfix" style="margin-top: -20px; display: flex;">
+				<div class="graphics-tasks" style="box-shadow: 0 0 16px rgba(239,241,244,0.7);">
+					<div class="tasks-main-content">
+
+						<div class="tasks-header clearfix">
+							<h3> tasks completed</h3>
+							<span>...</span>
+						</div>
+
+						<div class="tasks-body-circle" style="transform: translate(55px, 15px);">
+							
+							<div>
+								<div class="dial blue" data-width="120" data-lineWidth="5" data-lineRound=true>78</div>
+							</div>
+  							<div>
+  								<div class="dial error" data-width="70" data-lineWidth="4" data-lineRound=true style="transform: translate(25px, -230px);">
+  								60
+  								</div>
+  							</div>
+						</div>
+
+						<div class="tasks-body-footer clearfix" style="transform: translate(0px, -301px);">
+							<div class="completed-blue" style="float: left;">
+								<span style="color:#4786ff; font-size: 5em; position: relative; bottom: 1px;">.</span>
+								<span style="color: #adb3b8; font-size: 12px;">Completed</span>
+							</div>
+							<div class="overdue-red" style="float: left; margin-left: 28px;">
+								<span style="color:#fa607e; font-size: 5em; position: relative; bottom: 1px">.</span>
+								<span style="color: #adb3b8; font-size: 12px;">Overdue</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="graphics-activity" style="width: 49.5%; box-shadow: 0 0 16px rgba(239,241,244,0.7);">
+					<div class="tasks-main-content">
+						<div class="activity-header clearfix">
+							<h3> recent activity</h3>
+							<span>...</span>
+						</div>
+						<div class="img">
+							<img src="img/graph3.jpg" alt="" style="margin-top: -14px;">
+						</div>
+					</div>
+				</div>
+
+				<div class="graphics-summary" style="box-shadow: 0 0 16px rgba(239,241,244,0.7);">
+					
+					<div class="tasks-main-content">
+						<div class="summary-header clearfix">
+							<h3>summary</h3>
+							<span>...</span>
+						</div>
+						<div class="summary-body-numbers clearfix" style="margin-top: 10px; border-bottom: 1px solid #f0f2f5; padding-bottom:20px; position: relative;">
+							<div class="number-left">
+								<span>4</span>
+								<h3>Active Users</h3>
+								<progress id="progress-blue" value="50" max="100" style="margin-top: 15px;"></progress>
+							</div>
+							<div class="number-right">
+								<span>36</span>
+								<h3>Completed tasks</h3>
+								<progress id="progress-red" value="60" max="100" style="margin-top: 15px;"></progress>
+							</div>
+						</div>
+						<div class="summary-footer clearfix" style="padding-top: 15px;">
+							<div class="img-line">
+								<img src="img/line3.jpg" alt="" style="width: 120px; height: 60px;">
+							</div>
+							<div class="number-right-last">
+								<span>68</span>
+								<h3>Open Tasks</h3>
+								<progress id="progress-blue" value="50" max="100" style="margin-top: 15px;" ></progress>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="user-activity center-block-main clearfix" style="margin-top: 25px; margin-bottom: 60px; display: flex;">
+				<div class="activity" style="box-shadow: 0 0 16px rgba(239,241,244,0.7);">
+					<div class="main-last">
+						<div class="activity-header clearfix" style="margin-bottom: 10px;">
+							<h3> user's activity</h3>
+							<span>...</span>
+						</div>
+						<div class="images-last" style="display: flex; flex-direction: column;">
+							<div style="align-self: flex-start; margin-bottom: 5px;">
+								<img src="img/anna.jpg" alt=""> 
+								<a href="#"><span class="names">Anna Klawikowska</span></a>
+								<span class="numbers" style="right: 18px;"> 2 min ago</span>
+								<progress id="progress-blue-flex" value="100" max="100" style="margin-bottom: 17px; margin-left: 10px;"></progress>
+								<progress id="progress-red-flex" value="45" max="100" style="margin-bottom: 17px;"></progress>
+								<span class="quan">12/24</span> 
+							</div>
+							<div style="align-self: flex-start; margin-bottom: 5px;">
+								<img src="img/s.jpg" alt="">
+								<a href="#"><span class="names" style="margin-left: 10px;">Siergiej Soskowiec</span></a>
+								<span class="numbers"> 2h ago</span>
+								<progress id="progress-blue-flex1" value="75" max="100" style="margin-left: 26px; margin-bottom: 17px;"></progress>
+								<span class="quan" style="left: 35px;">21/22</span>
+							</div>
+							<div style="align-self: flex-start; margin-bottom: 5px;">
+								<img src="img/m.jpg" alt="">
+								<a href="#"> <span class="names">Michal Parulski</span></a>
+								<span class="numbers" style="left: 20px;"> 4h ago</span>
+								<progress id="progress-blue-flex" value="100" max="100" style="margin-bottom: 17px; margin-left: 46px;">
+								</progress>
+								<progress id="progress-red-flex" value="35" max="100" style="margin-bottom: 17px; "></progress>
+								<span class="quan" style="left: 7px;">8/10</span>
+							</div>
+							<div style="align-self: flex-start; margin-bottom: 5px;">
+								<img src="img/mblue.jpg" alt=""> 
+								<a href="#"><span class="names">Mateusz Czajka</span></a>
+								<span class="numbers"> 1 day ago</span>
+								<progress id="progress-blue-flex" value="100" max="100" style="margin-bottom: 17px; margin-left: 26px;"></progress>
+								<progress id="progress-red-flex" value="25" max="100" style="margin-bottom: 17px;"></progress>
+								<span class="quan">12/26</span>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="tasks" style="box-shadow: 0 0 16px rgba(239,241,244,0.7); position: relative;">
+					<div class="main-last">
+						<div class="tasks-header clearfix" style="margin-bottom: 20px;">
+							<h3> last tasks</h3>
+							<span>...</span>
+						</div>
+						<div class="main-list clearfix">
+							<div class="left-list">
+
+								<div class="input-first clearfix">
+									<div class="first-left" style="float: left;">
+										<input type="checkbox" id="cb1"> <label for="cb1">Create document list</label>
+										<span class="design">Design Sprint</span>
+									</div>
+									<span class="day" style="float: right; font-size: 12px; display:inline-block; margin-left: 70px; padding: 5px 12px;border: 1px solid #d9e6ff; border-radius: 15px; background: #d9e6ff; color: #4786ff; margin-top: -2px; position: relative; right: 20px; ">1 day</span>
+								</div>
+
+								<div class="input-second clearfix" style="margin-top: 30px;">
+									
+									<div class="second-left" style="float: left;">
+										<input type="checkbox" id="cb2"> <label for="cb2" ><span style="opacity: 0.4;">Add new user to board</span></label>
+										<span class="design" style="opacity: 0.3;">Design Sprint</span>
+									</div>
+									
+								</div>
+
+								
+								<div class="input-third clearfix" style="margin-top: 30px;">
+									<div class="third-left" style="float: left;">
+										<input type="checkbox" id="cb3"> <label for="cb3">Create document list</label>
+										<span class="design">Design Sprint</span>
+									</div>
+									<span class="day" style="float: right; font-size: 12px; display:inline-block; margin-left: 70px; padding: 5px 12px;border: 1px solid #fedee4; border-radius: 15px; background: #fedee4; color: #fa708b; margin-top: -2px; position: relative; right: 20px; ">1 day</span>
+								</div>
+								
+							</div>
+							<div class="right-list">
+								<div class="input-fourth clearfix">
+									<div class="fourth-left" style="float: left;">
+										<input type="checkbox" id="cb4"> <label for="cb4">Create document list</label>
+										<span class="design">Design Sprint</span>
+									</div>
+									
+								</div>
+
+								<div class="input-five clearfix" style="margin-top: 30px;">
+									<div class="five-left" style="float: left;">
+										<input type="checkbox" id="cb5"> <label for="cb5">Create document list</label>
+										<span class="design">Design Sprint</span>
+									</div>
+									<span class="day" style="float: right; font-size: 12px; display:inline-block; margin-left: 70px; padding: 5px 12px; border: 1px solid #fff0db; border-radius: 15px; background: #fff0db; color: #fdb44d; margin-top: -2px; ">1 day</span>
+								</div>
+								<div class="input-six clearfix" style="margin-top: 30px;">
+									<div class="six-left" style="float: left;">
+										<input type="checkbox" id="cb6"> <label for="cb6">Create document list</label>
+										<span class="design">Design Sprint</span>
+									</div>
+									<span class="day" style="float: right; font-size: 12px; display:inline-block; margin-left: 70px; padding: 5px 12px;border: 1px solid #fedee4; border-radius: 15px; background: #fedee4; color: #fa708b; margin-top: -2px; ">1 day</span>
+								</div>
+							</div>
+						</div>	
+					</div>
+
+					<span class="plus" style="position: absolute; bottom: -13%; right: 1%; display: block; font-size: 28px; padding: 9px; border: 2px solid #4786ff; border-radius: 50%; background: #4786ff; color: #fff; width: 30px; height: 30px; line-height: 30px; text-align: center; cursor: pointer;">+</span>
+
+				</div>
+			</div>
+
+			<!-- <span class="plus" style="position: absolute; bottom: -5.7%; right: 4.3%; display: block; font-size: 28px; padding: 9px; border: 2px solid #4786ff; border-radius: 50%; background: #4786ff; color: #fff; width: 30px; height: 30px; line-height: 30px; text-align: center; cursor: pointer;">+</span> -->
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/canvas.js" type="text/javascript"></script>
+    <script src="js/toggleBut.js" type="text/javascript"></script>
+
+</body>
+</html>
